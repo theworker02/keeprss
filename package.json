@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/keeprss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep CSV/TSV rss tables for quick inspection and cleanup.",
+  "bin": {
+    "keeprss": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/keeprss.git"
+  },
+  "homepage": "https://theworker02.github.io/keeprss/",
+  "keywords": [
+    "keep",
+    "rss",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
